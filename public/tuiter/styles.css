@@ -1,0 +1,38 @@
+.wd-float-done {
+  clear: both;
+}
+
+.wd-float-left-20 {
+  float: left;
+  width: 20%;
+}
+
+.wd-padding-30 {
+  padding: 30px;
+}
+
+.wd-display-inline-block {
+  display: inline-block;
+}
+
+.wd-pos-absolute-50 {
+  position: absolute;
+  left: 150px;
+}
+
+.wd-text-grey {
+  color: grey;
+}
+
+.wd-margin-top-30 {
+  margin-top: 30px;
+}
+
+.wd-float-left-5 {
+  float: left;
+  width: 5%;
+}
+
+.wd-margin-10 {
+  margin: 10px;
+}

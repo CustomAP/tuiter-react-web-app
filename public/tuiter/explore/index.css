@@ -1,0 +1,109 @@
+.wd-rounded-corners-all {
+  border-radius: 30px;
+}
+
+.wd-padding-10 {
+  padding: 10px;
+}
+
+.wd-color-dark-grey {
+  color: darkgrey;
+}
+
+.wd-bg-color-light-grey {
+  background-color: lightgrey;
+}
+
+.wd-width-70p {
+  width: 70%;
+}
+
+.wd-margin-30 {
+  margin: 30px;
+}
+
+.wd-width-10p {
+  width: 10%;
+}
+
+.wd-padding-10 {
+  padding: 10;
+}
+
+.wd-border-none {
+  border: none;
+}
+
+.wd-pos-relative-150 {
+  position: absolute;
+  left: 150px;
+}
+
+.wd-pos-relative-170 {
+  position: absolute;
+  left: 150px;
+}
+
+.wd-z-index-10 {
+  z-index: 10;
+}
+
+.wd-float-right-2 {
+  float: right;
+  width: 2%;
+}
+
+.wd-float-left-95 {
+  float: left;
+  width: 95%;
+}
+
+.wd-margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.wd-width-20p {
+  width: 20%;
+}
+
+.wd-border-bottom-thick-blue {
+  border-bottom: 5px lightseagreen solid;
+}
+
+.wd-width-100p {
+  width: 100%;
+}
+
+.wd-pos-relative-bottom-left {
+  position: relative;
+  top: -100px;
+  left: 40px;
+}
+
+.wd-text-white {
+  color: white;
+}
+
+.wd-padding-5 {
+  padding: 5px;
+}
+
+.wd-ul-none {
+  list-style: none;
+}
+
+.wd-pos-relative-push-up {
+  position: relative;
+  top: -50px;
+  left: -20px;
+}
+
+.wd-pos-relative-push-down-text {
+  position: relative;
+  top: 10px;
+}
+
+.wd-pos-relative-push-up-text {
+  position: relative;
+  bottom: 10px;
+}

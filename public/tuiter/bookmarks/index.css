@@ -1,0 +1,55 @@
+.wd-float-left-60 {
+  float: left;
+  width: 60%;
+}
+
+.wd-float-left-5 {
+  float: left;
+  width: 5%;
+}
+
+.wd-round-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+.wd-float-left-80 {
+  float: left;
+  width: 80%;
+}
+
+.wd-text-large {
+  font-size: large;
+}
+
+.wd-color-blue {
+  color: lightseagreen;
+}
+
+.wd-margin-left-20 {
+  margin-left: 20px;
+}
+
+.wd-margin-top-20 {
+  margin-top: 20px;
+}
+
+.wd-rounded-border {
+  border-radius: 15px;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wd-margin-left-100 {
+  margin-left: 100px;
+}
+
+.wd-padding-20 {
+  padding: 20px;
+}
+
+.wd-max-width-100 {
+  max-width: 100%;
+}
