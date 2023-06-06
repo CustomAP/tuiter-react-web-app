@@ -7,7 +7,7 @@ const TuitStats = ({
 }) => {
   return (
     <div className="row mt-2">
-      <div className="col col-1"></div>
+      <div className="col col-2"></div>
       <div className="col col-2">
         <i class="fa fa-comment ms-1 me-1"></i> {replies}
       </div>

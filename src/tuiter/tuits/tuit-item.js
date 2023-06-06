@@ -26,15 +26,15 @@ const TuitItem = ({
   return (
     <li className="list-group-item">
       <div className="row">
-        <div className="col-1">
+        <div className="col-2">
           <img
-            width={48}
-            height={48}
+            width={60}
+            height={60}
             className="m-1 rounded-circle"
             src={`/images/${tuit.image}`}
           />
         </div>
-        <div className="col-11">
+        <div className="col-10">
           <div>
             <i
               className="fa fa-x float-end"
