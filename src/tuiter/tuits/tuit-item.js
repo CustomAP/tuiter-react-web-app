@@ -1,7 +1,7 @@
 import React from "react";
 import TuitStats from "./tuit-stats";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "../reducers/tuits-reducer";
+import { deleteTuitsThunk } from "../services/tuit-thunks";
 const TuitItem = ({
   tuit = {
     topic: "Space",
@@ -20,7 +20,7 @@ const TuitItem = ({
 }) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitsThunk(id));
   };
 
   return (
@@ -40,13 +40,14 @@ const TuitItem = ({
               className="fa fa-x float-end"
               onClick={() => deleteTuitHandler(tuit._id)}
             ></i>
-            <b>{tuit.userName}</b> <i class="fa fa-check-circle ms-1"></i>{" "}
+            <b>{tuit.userName}</b> <i className="fa fa-check-circle ms-1"></i>{" "}
             {tuit.handle} . {tuit.time}
           </div>
           <div>{tuit.tuit}</div>
         </div>
       </div>
       <TuitStats
+        tuit={tuit}
         liked={tuit.liked}
         replies={tuit.replies}
         retuits={tuit.retuits}
