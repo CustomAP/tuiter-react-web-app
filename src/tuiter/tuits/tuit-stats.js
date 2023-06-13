@@ -13,6 +13,7 @@ const TuitStats = ({
     replies: 100,
     retuits: 101,
     likes: 10,
+    dislikes: 100,
     handle: "@spacex",
     tuit: "Some long text of tuit",
   },
@@ -20,6 +21,7 @@ const TuitStats = ({
   replies = 101,
   retuits = 432,
   likes = 100,
+  dislikes = 101,
 }) => {
   const dispatch = useDispatch();
   return (
@@ -40,6 +42,16 @@ const TuitStats = ({
           }
         ></i>{" "}
         {likes}
+      </div>
+
+      <div className="col col-2">
+        <i
+          className="fa fa-thumbs-down ms-1 me-1"
+          onClick={() =>
+            dispatch(updateTuitThunk({ ...tuit, dislikes: dislikes + 1 }))
+          }
+        ></i>{" "}
+        {dislikes}
       </div>
 
       <div className="col col-2">

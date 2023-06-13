@@ -15,6 +15,7 @@ const TuitItem = ({
     retuits: 101,
     likes: 10,
     handle: "@spacex",
+    dislikes: 100,
     tuit: "Some long text of tuit",
   },
 }) => {
@@ -52,6 +53,7 @@ const TuitItem = ({
         replies={tuit.replies}
         retuits={tuit.retuits}
         likes={tuit.likes}
+        dislikes={tuit.dislikes}
       />
     </li>
   );
