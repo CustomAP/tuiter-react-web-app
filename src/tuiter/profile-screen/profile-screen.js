@@ -16,10 +16,11 @@ function ProfileScreen() {
     await dispatch(updateUserThunk(profile));
   };
   useEffect(() => {
-    const loadProfile = async () => {
-      const payload = await dispatch(profileThunk());
-      setProfile(payload.payload);
-    };
+    async function loadProfile() {
+      const { payload } = await dispatch(profileThunk());
+      console.log(payload);
+      setProfile(payload);
+    }
     loadProfile();
   }, []);
   return (
