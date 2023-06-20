@@ -32,7 +32,7 @@ const TuitItem = ({
             width={60}
             height={60}
             className="m-1 rounded-circle"
-            src={`/images/${tuit.image}`}
+            src={`/images/rick.png`}
           />
         </div>
         <div className="col-10">
