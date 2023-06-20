@@ -16,7 +16,7 @@ const WhatsHappening = () => {
     const newTuit = {
       tuit: whatsHappening,
       topic: "Space",
-      userName: "SpaceX",
+      username: "SpaceX",
       time: "2h",
       title: `Tesla CyberTruck lands on Mars and
                picks up the Curiosity rover on its 6' bed`,
