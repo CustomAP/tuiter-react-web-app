@@ -2,7 +2,7 @@ import React from "react";
 const TuitSummaryItem = ({
   tuit = {
     topic: "Space",
-    userName: "SpaceX",
+    username: "SpaceX",
     time: "2h",
     title: `Tesla CyberTruck lands on Mars and
                picks up the Curiosity rover on its 6' bed`,
