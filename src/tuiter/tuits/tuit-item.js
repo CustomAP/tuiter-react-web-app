@@ -5,7 +5,7 @@ import { deleteTuitsThunk } from "../services/tuit-thunks";
 const TuitItem = ({
   tuit = {
     topic: "Space",
-    userName: "SpaceX",
+    username: "SpaceX",
     time: "2h",
     title: `Tesla CyberTruck lands on Mars and
                picks up the Curiosity rover on its 6' bed`,
@@ -41,7 +41,7 @@ const TuitItem = ({
               className="fa fa-x float-end"
               onClick={() => deleteTuitHandler(tuit._id)}
             ></i>
-            <b>{tuit.userName}</b> <i className="fa fa-check-circle ms-1"></i>{" "}
+            <b>{tuit.username}</b> <i className="fa fa-check-circle ms-1"></i>{" "}
             {tuit.handle} . {tuit.time}
           </div>
           <div>{tuit.tuit}</div>
